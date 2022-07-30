@@ -1,8 +1,8 @@
 <template>
   <section id="contact" class="has-text-centered pb-6">
-    <h1 class="is-primary is-size-1">Contact Me</h1>
-    <div class="is-flex is-flex-direction-row is-justify-content-center">
-      <div class="card ml-2 social-card">
+    <h1 class="is-primary is-size-2 is-size-1-tablet">Contact Me</h1>
+    <div class="is-flex-tablet is-flex-direction-row-tablet is-justify-content-center-tablet mx-auto-tablet">
+      <div class="card ml-2 social-card my-2">
         <a href="https://twitter.com/techDevLitha">
           <div class="card-content">
             <div class="content">
@@ -14,8 +14,8 @@
           </div>
         </a>
       </div>
-      <div class="card ml-2 social-card">
-        <a href="https://www.github.com/totalgeek-jr">
+      <div class="card ml-2 social-card my-2">
+        <a href="https://www.github.com/lilitha-mdlalana">
           <div class="card-content">
             <div class="content">
               <figure>
@@ -26,7 +26,7 @@
           </div>
         </a>
       </div>
-      <div class="card ml-2 social-card">
+      <div class="card ml-2 social-card my-2">
         <a href="mailto:innomdlalana@gmail.com">
           <div class="card-content">
             <div class="content">

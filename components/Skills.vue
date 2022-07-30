@@ -61,7 +61,7 @@ export default {
 
 <template>
   <section id="skills" class="has-text-centered mt-6">
-    <h1 class="is-primary is-size-1">Favourite tools and technologies</h1>
+    <h1 class="is-primary is-size-2 is-size-1-tablet">Favourite tools and technologies</h1>
     <div class="container">
       <div class="grid">
         <MiniSkillsCard
@@ -79,6 +79,13 @@ export default {
 <style>
 .grid{
   display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+@media screen and (min-width:768px) {
+.grid{
+  display:grid;
   grid-template-columns: repeat(5,1fr);
+}
 }
 </style>

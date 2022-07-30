@@ -32,12 +32,12 @@ export default {
 
 <template>
   <section id="services" class="has-text-centered mt-6">
-    <h1 class="is-primary is-size-1">What I do</h1>
-    <div class="is-flex is-flex-direction-row is-justify-content-center">
+    <h1 class="is-primary is-size-2 is-size-1-tablet">What I do</h1>
+    <div class="is-flex-tablet is-flex-direction-row-tablet is-justify-content-center-tablet">
       <MiniCard
         v-for="service in services"
         :key="service.service"
-        class="m-2"
+        class="mx-auto my-3 mx-2-tablet "
         :service="service.service"
         :description="service.description"
         :image-path="service.imageUrl"
