@@ -40,6 +40,7 @@ img {
   max-width: 100px;
   max-height: 100px;
 }
+
 .skills_card:hover {
   box-shadow: 45px 52px 130px -39px rgba(87, 87, 87, 0.6);
   -webkit-box-shadow: 45px 52px 130px -39px rgba(87, 87, 87, 0.6);

@@ -1,8 +1,8 @@
 <template>
   <section id="contact" class="has-text-centered pb-6">
     <h1 class="is-primary is-size-2 is-size-1-tablet">Contact Me</h1>
-    <div class="is-flex-tablet is-flex-direction-row-tablet is-justify-content-center-tablet mx-auto-tablet">
-      <div class="card ml-2 social-card my-2">
+    <div class="flex">
+      <div class="card social-card mx-2 my-3  mx-1-tablet">
         <a href="https://twitter.com/techDevLitha">
           <div class="card-content">
             <div class="content">
@@ -14,7 +14,7 @@
           </div>
         </a>
       </div>
-      <div class="card ml-2 social-card my-2">
+      <div class="card social-card mx-2 my-3 mx-1-tablet">
         <a href="https://www.github.com/lilitha-mdlalana">
           <div class="card-content">
             <div class="content">
@@ -26,7 +26,7 @@
           </div>
         </a>
       </div>
-      <div class="card ml-2 social-card my-2">
+      <div class="card social-card mx-2 my-3 mx-1-tablet">
         <a href="mailto:innomdlalana@gmail.com">
           <div class="card-content">
             <div class="content">
@@ -50,5 +50,17 @@
 figure img{
   height:100px;
   width:100px;
+}
+@media screen and (min-width:768px) {
+.flex{
+  display:flex;
+  justify-content:center;
+}
+}
+@media screen and (max-width:768px) {
+.social-card{
+  min-width:200px;
+  height: 200px;
+}
 }
 </style>
