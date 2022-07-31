@@ -44,12 +44,12 @@
 
 <style scoped>
 .social-card{
-  min-width:300px;
-  height: 200px;
+  min-width:18.75rem;
+  height: 12,5rem;
 }
 figure img{
-  height:100px;
-  width:100px;
+  height:6.25rem;
+  width:6.25rem;
 }
 @media screen and (min-width:768px) {
 .flex{
@@ -59,8 +59,8 @@ figure img{
 }
 @media screen and (max-width:768px) {
 .social-card{
-  min-width:200px;
-  height: 200px;
+  min-width:9.5rem;
+  height: 12.5rem;
 }
 }
 </style>
