@@ -2,7 +2,7 @@
   <section id="contact" class="has-text-centered pb-6">
     <h1 class="is-primary is-size-2 is-size-1-tablet">Contact Me</h1>
     <div class="flex">
-      <div class="card social-card mx-2 my-3  mx-1-tablet">
+      <div class="card social-card mx-2 my-3 mx-1-tablet">
         <a href="https://twitter.com/techDevLitha">
           <div class="card-content">
             <div class="content">
@@ -43,24 +43,24 @@
 </template>
 
 <style scoped>
-.social-card{
-  min-width:18.75rem;
-  height: 12,5rem;
+.social-card {
+  min-width: 18.75rem;
+  height: 12, 5rem;
 }
-figure img{
-  height:6.25rem;
-  width:6.25rem;
+figure img {
+  height: 6.25rem;
+  width: 6.25rem;
 }
-@media screen and (min-width:768px) {
-.flex{
-  display:flex;
-  justify-content:center;
+@media screen and (min-width: 768px) {
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
 }
-}
-@media screen and (max-width:768px) {
-.social-card{
-  min-width:9.5rem;
-  height: 12.5rem;
-}
+@media screen and (max-width: 768px) {
+  .social-card {
+    min-width: 9.5rem;
+    height: 12.5rem;
+  }
 }
 </style>

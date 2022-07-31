@@ -32,7 +32,7 @@ export default {
 
 <template>
   <section id="services" class="has-text-centered mt-6">
-    <h1 class="is-primary is-size-2 is-size-1-tablet">What I do</h1>
+    <h1 class="is-primary is-size-3 is-size-1-tablet">What I do</h1>
     <div class="is-flex-tablet is-flex-direction-row-tablet is-justify-content-center-tablet">
       <MiniCard
         v-for="service in services"

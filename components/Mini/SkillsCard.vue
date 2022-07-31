@@ -30,15 +30,15 @@ export default {
 
 <style scoped>
 .skills_card {
-  width: 200px;
-  height: 150px;
+  width: 9.5rem;
+  height: 9.375rem;
   background-color: #f6f2fe;
 }
 img {
-  height: 70px;
-  width: 100px;
-  max-width: 100px;
-  max-height: 100px;
+  height: 4.375rem;
+  width: 6.25rem;
+  max-width: 6.25rem;
+  max-height: 6.25rem;
 }
 
 .skills_card:hover {

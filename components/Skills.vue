@@ -61,7 +61,7 @@ export default {
 
 <template>
   <section id="skills" class="has-text-centered mt-6">
-    <h1 class="is-primary is-size-2 is-size-1-tablet">Favourite tools and technologies</h1>
+    <h1 class="is-primary is-size-3 is-size-2-tablet">Favourite tools and technologies</h1>
     <div class="container">
       <div class="grid">
         <MiniSkillsCard
